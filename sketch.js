@@ -17,10 +17,7 @@ function setup() {
 
 	dustbin = new DustBin(730, 390, 100, 10);
 	paper = new paper(100, 300, 10);
-	ground = Bodies.rectangle(width / 2, 400, width, 10,
-	{
-		isStatic: true
-	});
+	ground = Bodies.rectangle(width/2, 400, width, 10,{isStatic: true});
 	World.add(world, ground);
 }
 
