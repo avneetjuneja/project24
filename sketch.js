@@ -29,6 +29,8 @@ function draw() {
 
   dustbin.display();
   paper.display();
+	
+ drawSprites();
  
 }
 
